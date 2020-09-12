@@ -11,7 +11,7 @@ import java.util.Random;
 
 @RestController
 @RequestMapping("/api")
-public class JavaRestController {
+class JavaRestController {
     @GetMapping("/random-number")
     RandomNumberContainer getRandomNumber(@RequestParam(defaultValue = "6") int max)  {
         int randomNumber = generateRandomNumber(max);

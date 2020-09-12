@@ -5,6 +5,6 @@ import lombok.NoArgsConstructor;
 
 @Data
 @NoArgsConstructor
-public class MaxNumberContainer {
+class MaxNumberContainer {
     private int max;
 }
